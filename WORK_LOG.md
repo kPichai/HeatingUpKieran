@@ -1,9 +1,9 @@
-Name: YOUR NAME HERE
+Name: Kieran Pichai
 
-| Date    |  Time  |                                     Update |
-|:--------|:------:|-------------------------------------------:|
-| April 5 | 9-10pm | I tried to write abstract, efficient code. |
-|         |        |                                            |
+| Date   |      Time       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Update |
+|:-------|:---------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Jan 14 | 1:00pm - 1:45pm | We learnt about the problem set and began discussing initial points of view. Tony came up with the idea to keep track of your current number then to remove any numbers from the array list that are lower (remove any dips essentially). Then you will end up with an arraylist of only increasing numbers and you can then return the length. Similarly, during this class we discussed how it's easy to trick this algorith: if you have 70 71 31 32 33 34 the code would return 2 as it would cut off the 30's sequence. |
+|        |                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
