@@ -3,11 +3,10 @@
  * each day’s temperature is higher than on the previous day in that sequence.
  *
  * @author Zach Blick
- * @author YOUR NAME HERE
+ * @author Kieran Pichai
  */
 
 public class WeatherPatterns {
-
 
     /**
      * Longest Warming Trend
@@ -15,8 +14,18 @@ public class WeatherPatterns {
      * @return the longest run of days with increasing temperatures
      */
     public static int longestWarmingTrend(int[] temperatures) {
-        // TODO: Write your code here!
+        int maxLength = 1;
+        int currentLength = 1;
 
-        return 0;
+        for (int i = 1; i < temperatures.length; i++) {
+            if (temperatures[i] > temperatures[i - 1]) {
+                currentLength++;
+                maxLength = Math.max(maxLength, currentLength);
+            } else {
+                currentLength = 1;
+            }
+        }
+
+        return maxLength;
     }
 }
